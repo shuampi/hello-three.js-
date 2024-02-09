@@ -1,0 +1,50 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body, html {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+nav {
+  color:white;
+  z-index: 2;
+  position: relative ;
+  padding: 4rem 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+.title {
+  position: absolute;
+  color:white;
+  font-size: 3rem;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+}
